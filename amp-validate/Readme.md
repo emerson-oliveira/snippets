@@ -5,7 +5,7 @@ Esse script surgiu com a necessidade de validar a versão amp dos projetos que d
 Após fazer o build do projeto é possível fazer a validação dos arquivos tendo como objetivo a leitura dos dados na pasta 
 `./dist/server/pages`
 
-## Como adicionar no seu projeto ?
+## Como adicionar ao seu projeto ?
 
 Clone o projeto
 
@@ -25,7 +25,7 @@ Instale a dependencia amphtml-validator
   npm i amphtml-validator
 ```
 
-Adicione o script no `package.json` 
+Inclua o script no `package.json` 
 
 ```
 {
@@ -40,14 +40,14 @@ Adicione o script no `package.json`
 
 ## Como rodar no projeto ?
 
-Faça o build para criar os arquivos estaticos 
+Execute os comandos:
 
 ```bash
   npm run build
 ```
-
-Rode o comando para gerar os logs de validação
+Para criar os arquivos estaticos 
 
 ```bash
   npm run validate:amp
 ```
+para gerar os logs de validação
